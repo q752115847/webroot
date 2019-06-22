@@ -5,6 +5,8 @@ class Index
 {
     public function index()
     {
-        return $this->display();
+		$view = new View();
+       
+		return $view->fetch('index');
     }
 }
