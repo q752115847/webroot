@@ -5,6 +5,6 @@ class Index
 {
     public function index()
     {
-        return $view->fetch();
+        return $view->fetch('Index/index');
     }
 }
