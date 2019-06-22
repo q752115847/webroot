@@ -1,9 +1,11 @@
 <?php
 namespace app\index\controller;
 
-class Index extends Comm
+use think\Controller;
+
+class Login extends Controller
 {
-    public function index()
+    public function login()
     {  
 		return $this->fetch();
     }
