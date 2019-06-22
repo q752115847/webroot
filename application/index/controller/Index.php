@@ -5,6 +5,6 @@ class Index
 {
     public function index()
     {
-        return $this->fetch('index');
+        return $this->display();
     }
 }
